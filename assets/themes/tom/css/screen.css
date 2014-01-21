@@ -18,12 +18,12 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
+  *font-size: smaller;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  font-size: 110%;
 }
 
 h1 {
@@ -68,7 +68,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
+    font-family: "Source code pro", Monaco, "Courier New", monospace;
     font-size: 80%;
   }
 
@@ -195,3 +195,5 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+

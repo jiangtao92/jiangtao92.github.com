@@ -2,8 +2,8 @@
 layout: post
 title: "install_OpenSuse"
 description: ""
-category: 
-tags: []
+category: OpenSuse 的迁徙之路
+tags: [linux,OpenSuse]
 ---
 {% include JB/setup %}
 以前一直用的linux版本都是ubuntu,记得ubuntu 13.10 出来的时候,兴冲冲的安装完成之后,一重启上来就是直接报错误了,心凉了半截.
@@ -58,13 +58,6 @@ tags: []
 - 另外就是美化换个主题之类,不细说,推荐一个组合比较好看[Zukitwo][3] + [elementary xfce icon theme][4]
 - 多媒体编解码库下载,我直接安装了一个[vlc 教程][5].
 - 更换oracle java [教程](http://www.suselinks.us/install-oracle-sun-java-1-7-opensuse-12-2)
-- ```c++
-#inlcude <stdio.h>
-int main () {
-	printf("I just want to test the highlight of code!");
-	return 0;
-}
-```
 
 
 #### 参考资料:
