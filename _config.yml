@@ -2,9 +2,15 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-markdown: rdiscount
-pygments: true
+markdown: redcarpet
+#markdown: rdiscount
+pygments: false
 
+# extensions of redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables","with_toc_data","strikethrough"]
+# more(http://chaoskeh.com/blog/markdown-and-redcarpet.html)
+# more(https://github.com/vmg/redcarpet)
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

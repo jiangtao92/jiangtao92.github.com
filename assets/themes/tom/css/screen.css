@@ -12,22 +12,48 @@
 }
 
 html, body {
+  /*font-size: 100%;*/
   height: 100%;
 }
 
 body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  background-color: #eee;
+  font: 13.34px  ubuntu, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+  margin: 1.3em 0 1em;
+  padding: 0;
+  font-weight: bold;
 }
 
 h1 {
+  font-size: 1.6em;
   margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #CCC;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color: #777;
 }
 
 p {
@@ -51,6 +77,23 @@ table {
   font: 100%;
 }
 
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -68,7 +111,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: "Source code pro", Monaco, "Courier New", monospace;
+    font-family: "source code pro", Monaco, "Courier New", monospace;
     font-size: 80%;
   }
 
@@ -170,6 +213,7 @@ ul.posts {
     background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
+
   }
 
     #post pre code {
