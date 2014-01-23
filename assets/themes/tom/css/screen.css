@@ -18,7 +18,7 @@ html, body {
 
 body {
   background-color: #eee;
-  font: 13.34px  ubuntu, arial, clean, sans-serif;
+  font: 13.35px ubuntu, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -72,9 +72,15 @@ a:visited {
   color: #a0a;
 }
 
-table {
-  font-size: inherit;
-  font: 100%;
+blockquote, q {
+  border-left: 3px solid #DDD;
+  padding: 0 1em;
+  color: #777;
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: none;
 }
 
 img {
@@ -94,6 +100,59 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+/* table */
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+}
+
+tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table tr th, table tr td {
+  font-size: 1em;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+table tr th {
+ font-weight: bold;
+  background-color: #F0F0F0;
+}
+
+table tr td[align="right"] {
+  text-align: right;
+}
+
+table tr td[align="left"] {
+  text-align: left;
+}
+
+table tr td[align="center"] {
+  text-align: center;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -111,7 +170,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: "source code pro", Monaco, "Courier New", monospace;
+    font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
 
@@ -123,7 +182,7 @@ ul.posts {
 
 .site {
   font-size: 105%;
-  text-align: justify;
+  text-align: left;
   width: 50em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
@@ -198,9 +257,11 @@ ul.posts {
   /* standard */
 
   #post pre {
+    font-family: "Source code pro","ubuntu mono","Courier New",Monaco,monospace;
     border: 1px solid #ddd;
-    background-color: #eef;
+    /*background-color: #eef;*/
     padding: 0 .4em;
+    
   }
 
   #post ul,
@@ -209,8 +270,9 @@ ul.posts {
   }
 
   #post code {
+    font-family: "Source code pro","ubuntu mono","Courier New", Monaco,monospace;
     border: 1px solid #ddd;
-    background-color: #eef;
+    /*background-color: #eef;*/
     font-size: 85%;
     padding: 0 .2em;
 
@@ -218,6 +280,7 @@ ul.posts {
 
     #post pre code {
       border: none;
+      font-family: "Source code pro","ubuntu mono","Courier New",Monaco,monospace;
     }
 
   /* terminal */
@@ -239,5 +302,6 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
 
 

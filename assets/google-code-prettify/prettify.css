@@ -1,73 +1,74 @@
-/* Tomorrow Theme */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* Tomorrow Night Bright Theme */
+/* Original theme - /chriskempson/tomorrow-theme */
 .prettyprint {
-  background: white;
-  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
-  font-size: 12px;
+  background: black;
+  font-family: 'ubuntu mono',Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-size: 13px;
   line-height: 1.5;
   border: 1px solid #ccc;
   padding: 10px;
+  overflow: auto;
 }
 
 .pln {
-  color: #4d4d4c;
+  color: #eaeaea;
 }
 
 @media screen {
   .str {
-    color: #718c00;
+    color: #b9ca4a;
   }
 
   .kwd {
-    color: #8959a8;
+    color: #c397d8;
   }
 
   .com {
-    color: #8e908c;
+    color: #969896;
   }
 
   .typ {
-    color: #4271ae;
+    color: #7aa6da;
   }
 
   .lit {
-    color: #f5871f;
+    color: #e78c45;
   }
 
   .pun {
-    color: #4d4d4c;
+    color: #eaeaea;
   }
 
   .opn {
-    color: #4d4d4c;
+    color: #eaeaea;
   }
 
   .clo {
-    color: #4d4d4c;
+    color: #eaeaea;
   }
 
   .tag {
-    color: #c82829;
+    color: #d54e53;
   }
 
   .atn {
-    color: #f5871f;
+    color: #e78c45;
   }
 
   .atv {
-    color: #3e999f;
+    color: #70c0b1;
   }
 
   .dec {
-    color: #f5871f;
+    color: #e78c45;
   }
 
   .var {
-    color: #c82829;
+    color: #d54e53;
   }
 
   .fun {
-    color: #4271ae;
+    color: #7aa6da;
   }
 }
 @media print, projection {
