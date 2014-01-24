@@ -9,9 +9,13 @@ tags: [jekyll]
 
 # redcarpet and extensions
 
+> [传送门](https://github.com/vmg/redcarpet)
+
 ## 安装
 
-`gem install redcarpet`
+`gem install redcarpet` 
+
+> 如果是 Linux 需要 root 权限. ` sudo gem install redcarpet `
 
 ## 使用
 

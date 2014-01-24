@@ -116,7 +116,11 @@
 ol.linenums {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 12px;
+  color: #bebec5;
+
 }
+
 
 /* IE indents via margin-left */
 li.L0,
@@ -129,6 +133,7 @@ li.L6,
 li.L7,
 li.L8,
 li.L9 {
+
   /* */
 }
 

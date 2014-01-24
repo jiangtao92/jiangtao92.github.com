@@ -18,7 +18,7 @@ html, body {
 
 body {
   background-color: #eee;
-  font: 13.35px ubuntu, arial, clean, sans-serif;
+  font: 13.80px "Helvetica Neue",ubuntu, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -73,10 +73,11 @@ a:visited {
 }
 
 blockquote, q {
-  border-left: 3px solid #DDD;
+  border-left: 3px solid #D0E5F2;
   padding: 0 1em;
-  color: #777;
+  color:#C20A0A
   quotes: none;
+  font-size: 90%
 }
 
 blockquote::before, blockquote::after, q::before, q::after {
@@ -181,11 +182,11 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 105%;
-  text-align: left;
+  font-size: 100%;
+  text-align: justify;
   width: 50em;
   margin: 3em auto 2em auto;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 .title {
