@@ -8,7 +8,7 @@ pygments: false
 
 # extensions of redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables","with_toc_data","strikethrough","underline","superscript"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables","with_toc_data","strikethrough","underline","superscript","disable_indented_code_blocks"]
 # more(http://chaoskeh.com/blog/markdown-and-redcarpet.html)
 # more(https://github.com/vmg/redcarpet)
 
