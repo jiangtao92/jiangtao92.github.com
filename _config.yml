@@ -5,7 +5,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: redcarpet
 #markdown: rdiscount
 pygments: false
-
+paginate: 5
 # extensions of redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables","with_toc_data","strikethrough","underline","superscript","disable_indented_code_blocks"]
@@ -15,15 +15,49 @@ redcarpet:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Chiang's Blog
-tagline: 疯狂如癫痫
-author :
-  name : Tao Chiang
-  email : jiangtao92@gmail.com
-  github : jiangtao92
-  twitter : jiangtao92
-  feedburner : feedname
+#站点基础配置
+title: Chiang's Blog
+subTitle: 疯狂如癫痫
+description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+url: http://localhost:4000
+feed: /atom.xml
 
+#菜单配置
+nav:
+  - text: Home
+    url: /index.html
+    icon: icon-home
+    class: home
+  - text: Archive
+    url: /archive.html
+    icon: icon-reorder
+    class: none
+  - text: Tags
+    url: /tags.html
+    icon: icon-tags
+    class: none
+  - text: Categories
+    url: /categories.html
+    icon: icon-cloud
+    class: none
+  - text: About
+    url: /contact.html
+    icon: icon-heart
+    class: none
+
+page:
+  - text: 文章分类
+    url: /archives.html
+    last: true
+  - text: 友情链接
+    url: /links.html
+    last: true
+  - text: 关于我
+    url: /contact.html
+    last: false
+
+author:
+  name: Tao Chiang
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls

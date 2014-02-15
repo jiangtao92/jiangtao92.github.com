@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "sublime text 中文输入"
-description: ""
+description: 
 category: 
 tags: [Linux]
 ---
