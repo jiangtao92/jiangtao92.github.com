@@ -18,12 +18,14 @@ html, body {
 
 body {
   background-color: #eee;
-  font: 13.80px "Helvetica Neue",ubuntu, arial, clean, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, 'Songti SC', SimSun, "Microsoft YaHei", serif;
+  font-size: 15px;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica Neue, Helvetica, Arial, "Hiragino Sans GB", sans-serif;
   margin: 1.3em 0 1em;
   padding: 0;
   font-weight: bold;
@@ -258,7 +260,6 @@ ul.posts {
   /* standard */
 
   #post pre {
-    font-family: "Source code pro","ubuntu mono","Courier New",Monaco,monospace;
     border: 1px solid #ddd;
     /*background-color: #eef;*/
     padding: 0 .4em;
@@ -271,7 +272,6 @@ ul.posts {
   }
 
   #post code {
-    font-family: "Source code pro","ubuntu mono","Courier New", Monaco,monospace;
     border: 1px solid #ddd;
     /*background-color: #eef;*/
     font-size: 85%;
@@ -281,7 +281,6 @@ ul.posts {
 
     #post pre code {
       border: none;
-      font-family: "Source code pro","ubuntu mono","Courier New",Monaco,monospace;
     }
 
   /* terminal */
