@@ -65,7 +65,7 @@ a:hover { text-decoration: underline; }
 ins, a { text-decoration: none; }
 u, .lotus-u { text-decoration: underline; }
 mark { background: #FFFB99; }
-pre, code { font-family: "Courier New", Courier, monospace; overflow-x: auto; vertical-align: middle; }
+pre, code { font-family: 'ubuntu mono', Monaco, Consolas, monospace; overflow-x: auto; vertical-align: middle; }
 pre { font-size: 12px; border: 1px solid #d8d8d8; border-left-width: 0.4em;  background: rgba(214, 214, 214, 0.5); padding: 10px; }
 code { color: #4d4d4d; background: rgba(214, 214, 214, 0.5); padding: 0 0.2em; border: 1px solid #bdbdbd; border-radius: 2px 2px; vertical-align:top;}
 small { font-size: 12px; color: #888; }
@@ -938,13 +938,15 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; font-weight: 700\9; color:#333; }
     .fun{color:red}
 }
 pre code {
+    font-family: 'ubuntu mono', Monaco, Consolas, monospace;
     background: none;
     border: none;
 }
+
 pre.prettyprint{
-    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-family: 'ubuntu mono', Monaco, Consolas, monospace;
+    font-weight: bold;
     /*background: rgba(255, 255, 255, 0.5);*/
     border-radius: 0 2px 2px 0;
     box-shadow: 0px 4px 4px #e8e8e8;
 }
-
