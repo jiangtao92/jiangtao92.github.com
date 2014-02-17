@@ -154,7 +154,6 @@ tags: [Linux]
 	Name=New File
 	Exec=/opt/sublime_text/sublime_text --command new_file
 	OnlyShowIn=Unity;
-
 	```
 
 
